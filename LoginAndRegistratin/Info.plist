@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fbAPP-ID</string>
+			</array>
+		</dict>
+		<dict>
+			<key></key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.400897756021-tg5a8c5l01ms46bfo0nnhormt6ou3ic9</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>APP-ID</string>
+	<key>FacebookClientToken</key>
+	<string>CLIENT-TOKEN</string>
+	<key>FacebookDisplayName</key>
+	<string>APP-NAME</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>CFBundleURLTypes</key>
+			<array>
+				<dict>
+					<key>CFBundleURLSchemes</key>
+					<array>
+						<string>fbAPP-ID</string>
+					</array>
+				</dict>
+			</array>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
